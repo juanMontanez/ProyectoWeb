@@ -15,7 +15,7 @@ let checkAlive = setInterval(function () {
     let cactusLeft = parseInt(
         window.getComputedStyle(cactus).getPropertyValue("left")
     );
-    if (cactusLeft > 0 && cactusLeft < 70 && dinoTop >= 143)
+    if (cactusLeft > 0 && cactusLeft < 50 && dinoTop >= 140)
     {
         dino.style.animationPlayState = "paused";
         cactus.style.animationPlayState = "paused";
