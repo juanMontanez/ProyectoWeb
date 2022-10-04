@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 10;
+    margin: 10;
 }
 .game {
     width: 600px;
@@ -11,10 +11,12 @@
 #dino {
     width: 120px;
     height: 70px;
-    background-image: url(t-rex.png);
+    background-image: url(cactus.png);
     background-size: auto 70px;
-    position: relative;
+    position: absolute;
     top: 143px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .jump{
     animation: jump 0.3s linear;
@@ -35,11 +37,14 @@
     100%{
         top: 143px;
     }
+    120%{
+    	  top: 143px;
+    }
 }
 #cactus {
-        width: 20px;
+        width: 120px;
         height: 40px;
-        position: relative;
+        position: absolute;
         top: 91px;
         left: 580px;
         background-image: url(cactus.png);
@@ -48,7 +53,7 @@
     }
 @keyframes cactus-block {
     0%{
-        left:600px;
+        left:500px;
     }
     100%{
         left: -20px
