@@ -19,7 +19,7 @@ let checkAlive = setInterval(function () {
     {
         dino.style.animationPlayState = "paused";
         cactus.style.animationPlayState = "paused";
-        alert ("Game Over");
+        alert ("Juego Terminado");
         window.location.reload();
     }
 },10);
